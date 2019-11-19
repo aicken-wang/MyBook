@@ -1,32 +1,8 @@
 {
-    "title": "Go 学习笔记",
+    "title": "Go Web 学习笔记",
     "author": "aicken-wang",
-    "links": {
-        "sidebar": {
-            "github.com": "https://github.com/aicken-wang"
-        }
-    },
-    "plugins": [
-        "-sharing",
-        "sharing-plus",
-        "include-codeblock",
-        "ace",
-        "quiz",
-        "-lunr",
-        "-search",
-        "search-pro",
-        "collapsible-menu",
-        "bibtex-indexed-cite",
-        "-livereload",
-        "prism",
-        "-highlight",
-        "url-embed",
-        "page-footer-ex"
-    ],
+    "plugins": ["-sharing", "sharing-plus", "page-footer-ex"],
     "pluginsConfig": {
-        "theme-default": {
-            "showLevel": true
-        },
         "sharing": {
             "douban": false,
             "facebook": false,
@@ -44,45 +20,10 @@
             "viber": false,
             "vk": false,
             "weibo": true,
-            "whatsapp": false,
             "all": [
-                "facebook",
-                "google",
-                "twitter",
-                "weibo",
-                "qq",
-                "linkedin",
-                "qzone",
-                "douban"
-            ]
-        },
-        "include-codeblock": {
-            "template": "ace",
-            "unindent": true,
-            "edit": false
-        },
-        "quiz": {
-            "labels": {
-                "check": "提交答案",
-                "showExplanation": "显示解释",
-                "showCorrect": "显示正确答案",
-                "explanationHeader": "释义"
-            },
-            "text": {
-                "noChosen": "Choose at least one answer",
-                "incomplete": "Some correct answers are missing"
-            },
-            "buttons": {
-                "showCorrect": true,
-                "showExplanation": true
-            }
-        },
-        "bibtex-indexed-cite": {
-            "path": "/"
-        },
-        "prism": {
-            "css": [
-                "prismjs/themes/prism-solarizedlight.css"
+                "facebook", "google", "twitter",
+                "weibo", "qq", "linkedin",
+                "qzone", "douban"
             ]
         },
         "page-footer-ex": {
@@ -90,6 +31,14 @@
             "markdown": true,
             "update_label": "此页面编辑于：",
             "update_format": "YYYY-MM-DD HH:mm:ss"
+        }
+    },
+    "theme-default": {
+        "showLevel": true
+    },
+    "links" : {
+        "sidebar" : {
+            "source" : "https://github.com/aicken-wang"
         }
     }
 }
